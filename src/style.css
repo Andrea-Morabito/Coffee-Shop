@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Pacifico&display=swap');
 
 
+body{
+    background-color: #F3E7E2;
+    margin: 0;
+}
 /* CLASSI FONT */
 .danfo-regular {
     font-family: "Danfo", serif;
@@ -11,7 +16,21 @@
       "ELSH" 0;
   }
 
+  .oleo-script-regular {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .oleo-script-bold {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  
 /*FINE CLASSI FONT*/
+
 :root{
     --night: hsla(330, 10%, 4%, 1);
     --eerie-black: hsla(206, 14%, 10%, 1);
@@ -24,13 +43,15 @@
     --white-smoke: hsla(330, 9%, 96%, 1);
     --white: hsla(0, 0%, 100%, 1);
     --cornsilk: #F2E9DC;
+    --brown-sugar: #9E5E42;
+    --desert-sand: #D5AB9A;
 }
 
 .special-coffe-container{
     width: 16em;
     height: 16em;
     border-radius: 100%;
-    background-color: var(--cornsilk);
+    background-color: var(--brown-sugar);
     z-index: 2;
 }
 
@@ -38,7 +59,7 @@
     position: absolute;
     width: 100%;
     height: 11em;
-    background-color: whitesmoke;
+    background-color: var(--desert-sand);
     z-index: 1;
 }
 
@@ -50,15 +71,36 @@
 nav{
     display:flex;
     align-items:center;
-
+    margin: 8px;
 }
+
 
 nav > a{
     margin-left: 1em;
 }
 
+nav > a:hover{
+     cursor: url('./img/cursor_image.svg'), auto;
+     color: var(--brown-sugar);
+}
+
+.nav-link{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
 .logo-text{
     margin: 5px;
+    margin-right: 50%;
     font-size: 30px;
 }
 
+.footer{
+    position: absolute;
+    height: 5em;
+    width: 100%;
+    margin: 0%;
+    background-color: var(--desert-sand);
+    bottom:0px;
+}
