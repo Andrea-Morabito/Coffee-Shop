@@ -21,6 +21,11 @@
         </div>
     </div>
 
+    <div class="heading-container">
+        <img width="100%" height="450px" src="CoffeShop/src/img/cafe-image.jpg" alt="">
+    </div>
+
+
     <div style="display:flex" class="footer center">
         <p style="font-size: 20px" class="oleo-script-bold">@EXPRESSO</p>
     </div>
