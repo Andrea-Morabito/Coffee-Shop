@@ -22,7 +22,8 @@
     </div>
 
     <div class="heading-container">
-        <img width="100%" height="450px" src="CoffeShop/src/img/cafe-image.jpg" alt="">
+        <img src="CoffeShop/src/img/cafe-image.png" alt="">
+
     </div>
 
 
