@@ -1,10 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 
-body{
-    background-color: #F3E7E2;
+* {
+    box-sizing: inherit;
+}
+
+body, html {
     margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #F3E7E2;
+}
+
+nav {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+
+nav>a {
+    margin-left: 1em;
+}
+
+nav>a:hover {
+    cursor: url('./img/cursor_image.svg'), auto;
+    color: var(--brown-sugar);
+}
+
+h1{
+    font-size: 40px;
 }
 /* CLASSI FONT */
 .danfo-regular {
@@ -13,25 +44,139 @@ body{
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
-      "ELSH" 0;
-  }
+        "ELSH" 0;
+}
 
-  .oleo-script-regular {
+.oleo-script-regular {
     font-family: "Oleo Script", system-ui;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .oleo-script-bold {
+}
+
+.oleo-script-bold {
     font-family: "Oleo Script", system-ui;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
 /*FINE CLASSI FONT*/
 
-:root{
+:root {
     --night: hsla(330, 10%, 4%, 1);
     --eerie-black: hsla(206, 14%, 10%, 1);
     --blood-red: hsla(359, 87%, 21%, 1);
@@ -47,7 +192,7 @@ body{
     --desert-sand: #D5AB9A;
 }
 
-.special-coffe-container{
+.special-coffe-container {
     width: 16em;
     height: 16em;
     border-radius: 100%;
@@ -55,7 +200,7 @@ body{
     z-index: 2;
 }
 
-.special-coffe-cover{
+.special-coffe-cover {
     position: absolute;
     width: 100%;
     height: 11em;
@@ -63,99 +208,56 @@ body{
     z-index: 1;
 }
 
-.center{
+.center {
     justify-content: center;
     align-items: center;
 }
 
-nav{
-    display:flex;
-    align-items:center;
-    margin: 8px;
-}
 
-
-nav > a{
-    margin-left: 1em;
-}
-
-nav > a:hover{
-     cursor: url('./img/cursor_image.svg'), auto;
-     color: var(--brown-sugar);
-}
-
-.nav-link{
+.nav-link {
     font-size: 20px;
     color: black;
     text-decoration: none;
 }
 
-.logo-text{
+.logo-text {
     margin: 5px;
     margin-right: 50%;
     font-size: 30px;
 }
 
-.footer{
-    position: absolute;
+.footer {
     height: 5em;
     width: 100%;
-    margin: 0%;
     background-color: var(--desert-sand);
-    bottom:0px;
 }
 
-.heading-container{
+.heading-container {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: 30em;
 }
 
 
-.heading-container > p{
-   font-size: 20px;
-   text-align: center;
+.heading-container>p {
+    font-size: 20px;
+    text-align: center;
 }
 
-.heading-container > img{
-    position: absolute;
-
- }
- 
-
-.carousel-img{
-    width: 400px !important;
-    height: 400px !important;
+.carousel-img {
+    width: 375px;
+    height: 375px;
+    margin: 5px;
 }
 
-@keyframes zoom {
-    from {zoom:1;}
-    to {zoom:1.2;}
+.text-center{
+    text-align: center;
 }
-
-@keyframes de-zoom {
-    from {zoom:1.2;}
-    to {zoom:1;}
-}
-.carousel-img:hover{
-    animation: zoom 0.25s forwards;
-    border-radius: 16px;
-    z-index: 999;
-    animation-fill-mode: forwards;
-}
-
-.carousel-img:not(:hover){
-    animation: de-zoom 0.25s forwards;
-    border-radius: 16px;
-    z-index: 0;
-    animation-fill-mode: forwards;
-}
-
-
 
 @media only screen and (max-width: 768px) {
-    nav{
+    nav {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
-  }
+}
