@@ -27,22 +27,23 @@
         <p class="kanit-regular" style="font-size:20px">Il bar <span class="lobster-regular">Expresso</span> offre da più di 500 anni il migior caffè del mondo</p>
     </div>
     
-    <h1 style="margin-top: 4em" class="text-center">Assapora i nostri prodotti</h1>
+    <h1 style="margin-top: 4em; font-size: 40px;" class="text-center lobster-regular">Assapora i nostri prodotti</h1>
     
-    <div style="margin: 5em 25%">
-        <div style="display:flex">
+
+    <div style="display: flex; align-items:center; flex-direction: column;">
+        <div class="heading-container">
             <img width="400px" src="CoffeShop/src/img/cookie-image.jpg" alt="">
             <div style="margin-left:3em">
                 <h1 style="font-size: 40px; margin-bottom:1em;" class="lobster-regular">Biscotti</h1>
-                <p style="width:20em; style="font-size; 20px" class="kanit-regular">Lorem ipsum dolor sit amet, 
+                <p style="width:20em;font-size; 20px" class="kanit-regular">Lorem ipsum dolor sit amet, 
                     consectetur adipisicing elit. Eius, id? Nisi dolorum fugit, in veniam, alias dolorem tempore voluptas molestiae aspernatur magnam corrupti dolore cum ullam sunt. Nesciunt, in alias.</p>
             </div>
         </div>
-    </div>
 
 
-    <div style="margin: 5em 30%">
-        <div style="display:flex">
+
+
+        <div class="heading-container">
             <div style="margin-right:3em">
                 <h1 style="font-size: 40px; margin-bottom:1em;" class="lobster-regular">Cornetti</h1>
                 <p style="width:20em; font-size; 20px" class="kanit-regular">Lorem ipsum dolor sit amet, 
@@ -51,7 +52,7 @@
             <div>
             <img width="400px" src="CoffeShop/src/img/croissant-image.jpg" alt="">
             </div>
-            </div>
+        </div>
     </div>
 
     <div style="display:flex" class="footer center">

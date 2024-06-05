@@ -236,6 +236,7 @@ h1{
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 5em 25%;
 }
 
 
@@ -259,5 +260,15 @@ h1{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+    }
+
+    .heading-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
     }
 }
