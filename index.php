@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expresso Shop</title>
-    <link rel="stylesheet" type="text/css" href="CoffeShop/src/style.css">
+    <link rel="stylesheet" type="text/css" href="CoffeShop/src/style.css"">
 </head>
 <body>
     <nav >
@@ -35,7 +35,7 @@
             <img width="400px" src="CoffeShop/src/img/cookie-image.jpg" alt="">
             <div style="margin-left:3em">
                 <h1 style="font-size: 40px; margin-bottom:1em;" class="lobster-regular">Biscotti</h1>
-                <p style="width:20em;font-size; 20px" class="kanit-regular">Lorem ipsum dolor sit amet, 
+                <p style="width:20em;font-size: 20px" class="kanit-regular">Lorem ipsum dolor sit amet, 
                     consectetur adipisicing elit. Eius, id? Nisi dolorum fugit, in veniam, alias dolorem tempore voluptas molestiae aspernatur magnam corrupti dolore cum ullam sunt. Nesciunt, in alias.</p>
             </div>
         </div>
@@ -46,7 +46,7 @@
         <div class="heading-container">
             <div style="margin-right:3em">
                 <h1 style="font-size: 40px; margin-bottom:1em;" class="lobster-regular">Cornetti</h1>
-                <p style="width:20em; font-size; 20px" class="kanit-regular">Lorem ipsum dolor sit amet, 
+                <p style="width:20em; font-size: 20px;" class="kanit-regular">Lorem ipsum dolor sit amet, 
                     consectetur adipisicing elit. Eius, id? Nisi dolorum fugit, in veniam, alias dolorem tempore voluptas molestiae aspernatur magnam corrupti dolore cum ullam sunt. Nesciunt, in alias.</p>
                 </div>
             <div>
